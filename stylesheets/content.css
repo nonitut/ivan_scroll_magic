@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    background: bisque;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "CarlaSansLight";
+    src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+    font-style: Light;
+    font-weight: Light;
+}
+
+p {
+    font-family: 'CarlaSansLight';
+}
+
+
+.boxes {
+    margin-left: 35%;
+    margin-top: -33%;
+    width: 50%;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.6;
+    pointer-events: none;
+}
+.boxes img{
+    width: 100%;
+}
+
+h1{
+    font-size: 6vw;
+    color: aliceblue;
+}
+
+.flex{
+    display: flex;
+}
+
+
+.text-container {
+    font-size: 6vw;
+    margin-left: 45%;
+    background: palevioletred;
+    height: 100%;
+    overflow-y: scroll;
+    color:white;
+    padding: 10px;
+    width: 50%;
+    height: 440px;
+}
